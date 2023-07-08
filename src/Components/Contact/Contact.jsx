@@ -26,7 +26,7 @@ const Contact = () => {
 
     return (
         <div data-aos='fade-up' id='contact' className='lg:p-15 p-4 mt-12'>
-        <motion.p initial={{x :'-100vw'}} animate={{x:0}} transition={{delay:0.5,duration:0.5}}className='text-4xl mx-[460px] 2xl:text-5xl font-bold px-5 py-2 mb-6 pb-2 text-center hover:animate-bounce  text-white shadow-lg bg-blue-700 rounded-full'>
+        <motion.p initial={{x :'-100vw'}} animate={{x:0}} transition={{delay:0.5,duration:0.5}}className='text-4xl lg:mx-[460px] text-center 2xl:text-5xl font-bold px-5 py-2 mb-6 pb-2 text-center hover:animate-bounce  text-white shadow-lg bg-blue-700 rounded-full'>
               Contact Me
             </motion.p>
         <div className='lg:flex justify-evenly p-14 mb-10'>
