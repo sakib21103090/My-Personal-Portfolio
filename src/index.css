@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.AllBg{
+     background: linear-gradient(#24144c, #6d459A,#AA436F,#c53998,#7221D6);
+   
+}
