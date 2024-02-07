@@ -11,12 +11,12 @@ const Skills = () => {
         { type: 'HTML', level: 94 },
         { type: 'CSS', level: 96 },
         { type: 'Tailwind', level: 98 },
-        { type: 'Bootstrap', level: 99 },
+        { type: 'Bootstrap', level: 97 },
         { type: 'Javascript ', level: 95 },
         { type: 'React.js', level: 95 },
         { type: 'Node.JS', level: 70 },
-        { type: 'Express.Js', level: 96 },
-        { type: 'Mongodb', level: 100 },
+        { type: 'Express.Js', level: 90 },
+        { type: 'Mongodb', level: 89 },
         { type: 'next.js', level: 40 },
     ];
     const colors = {
@@ -34,7 +34,7 @@ const Skills = () => {
         <div className='justify-evenly lg:flex  lg:justify-center items-center'>
             
             <div className='mx-auto items-center flex'>
-            <img data-aos='fade-right' className=' h-[500px] mt-7 mr-4 rounded-full  border-blue-500 hover:animate-pulse border-8' src={development} alt="" />
+            <img data-aos='fade-right' className=' h-[500px] mt-7 mr-4 rounded-full  border-red-500 hover:animate-pulse border-8' src={development} alt="" />
             </div>
             <div data-aos='fade-left' className='lg:w-[500px] w-3/4 mt-5 sm:mt-5  mx-auto items-center '>
                 <SkillBar  skills={skills} colors={colors} />

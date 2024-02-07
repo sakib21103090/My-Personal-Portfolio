@@ -10,7 +10,9 @@ import toy6 from '../../../src/assets/Toy image/toy6.png'
 import toy7 from '../../../src/assets/Toy image/toy7.png'
 import toy8 from '../../../src/assets/Toy image/toy8.png'
 import toy9 from '../../../src/assets/Toy image/toy9.png'
-import toy10 from '../../../src/assets/Toy image/toylast.png'
+import toy10 from '../../../src/assets/Toy image/10.png'
+import toy11 from '../../../src/assets/Toy image/toy11.png'
+import toy12 from '../../../src/assets/Toy image/toy12.png'
 
 import sp1 from '../../../src/assets/sp/sp1.png'
 import sp2 from '../../../src/assets/sp/sp2.png'
@@ -170,6 +172,12 @@ const Projects = () => {
   </div>
   <div className="carousel-item h-full">
   <img src={toy10}></img>
+  </div>
+  <div className="carousel-item h-full">
+  <img src={toy11}></img>
+  </div>
+  <div className="carousel-item h-full">
+  <img src={toy12}></img>
   </div>
   
 </div>

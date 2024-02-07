@@ -37,11 +37,11 @@ const Header = () => {
         </p>
 
         <div className='mt-10 flex gap-10'>
-          <motion.a animate={{ rotate:-360 }} transition={{delay:0.5,duration:1.5}} className=' bg-indigo-700 text-lg text-white font-semibold rounded-md py-3 px-5 hover:bg-cyan-500 ' href={resume} download="sakibur resume mern stuck.pdf">Download Resume
+          <motion.a animate={{ rotate:-360 }} transition={{delay:0.5,duration:1.5}} className=' bg-indigo-700  border-2 border-lime-500  text-lg text-white font-semibold rounded-md py-3 px-5 hover:bg-cyan-500 ' href={resume} download="sakibur resume mern stuck.pdf">Download Resume
           </motion.a>
 
-          <a href='#Projects'>
-            <motion.button animate={{ rotate:-360 }} transition={{delay:0.5,duration:1.5}}  className='text-lg text-white font-semibold rounded-md py-3 px-5 bg-black'>
+          <a href='#projects'>
+            <motion.button animate={{ rotate:-360 }} transition={{delay:0.5,duration:1.5}}  className='text-lg text-white font-semibold border-2 p-3  border-red-500   rounded-md  hover:bg-yellow-400'>
               Projects
             </motion.button>
           </a>
